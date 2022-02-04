@@ -43,13 +43,9 @@ You should now see the following screen:
 ![Image of Windows System Settings](./images/windows-system.PNG)
 
 You should see your operating system listed ("Windows 10" in the above example) and the system type listed under the "System" tab (a 64-bit operating system in the above example).
+ 
 
-
-### Step 1: Install Spring Tool Suite 4
-
-Navigate to the [Eclipse Installer ](https://www.eclipse.org/downloads/packages/installer) website and follow the guide found on the webpage to download and install Eclipse. 
-
-### Step 2: Install DBeaver
+### Step 1: Install DBeaver
 
 In order to install DBeaver, please visit [DBeaver's official website](https://dbeaver.io/download/).
 
@@ -79,13 +75,17 @@ When you arrive at the portion of the setup which is titled "Choose Components",
 
 If your installation was successful, you should now be able to search for and find "DBeaver" using your computer's search bar.
 
-### Step 3: Install GitHub Desktop
+### Step 2: Install GitHub Desktop
 
 1. Sign up for a GitHub account (preferrably using your new Revature email) on [GitHub's official website](https://github.com/).
 
 2. Next, install GitHub Desktop by navigating to [GitHub Desktop website](https://desktop.github.com/)
 
 ![GitHub Desktop](./images/github-desktop.PNG)
+
+### Step 3: Install Eclipse
+
+Navigate to the [Eclipse Installer ](https://www.eclipse.org/downloads/packages/installer) website and follow the guide found on the webpage to download and install Eclipse.
 
 ====================
 
