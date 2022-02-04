@@ -79,13 +79,13 @@ If your installation was successful, you should now be able to search for and fi
 
 1. Sign up for a GitHub account (preferrably using your new Revature email) on [GitHub's official website](https://github.com/).
 
-2. Next, install GitHub Desktop by navigating to [GitHub Desktop website](https://desktop.github.com/)
+2. Next, download and install GitHub Desktop by navigating to [GitHub Desktop website](https://desktop.github.com/). Once it's locally installed, you can log in with the account you created in GitHub.
 
 ![GitHub Desktop](./images/github-desktop.PNG)
 
 ### Step 3: Install Eclipse
 
-Navigate to the [Eclipse Installer ](https://www.eclipse.org/downloads/packages/installer) website and follow the guide found on the webpage to download and install Eclipse.
+Navigate to the [Eclipse Installer ](https://www.eclipse.org/downloads/packages/installer) website and follow the guide found on the webpage to download and install **Eclipse IDE for Java Developers**.
 
 ====================
 
