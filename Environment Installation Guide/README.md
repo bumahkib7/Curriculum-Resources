@@ -19,10 +19,6 @@ The following technologies are required in order to complete this phase of the p
 
 **NOTE**: This guide primarily is written for those on a Windows Machine. 
 
-This method is compatible with all environments as it does not require any platform-specific package managers. You need only visit the official websites for each of the technologies listed and download the version of the tool that is compatible with your system.
-
-Do note, however, that setting system environment variables differs from machine to machine. This guide shows how to set environment variables on a Windows machine.
-
 The first thing you'll want to do is open your web browser of choice. This guide will use *Chrome*.
 
 **Note**: Many of the tools that you will install have different system installers that are platform dependent. It is **very** important that you download the correct installer. The following list details how you should choose the installer for a program:
@@ -81,7 +77,7 @@ If your installation was successful, you should now be able to search for and fi
 
 2. Next, download and install GitHub Desktop by navigating to [GitHub Desktop website](https://desktop.github.com/). Once it's locally installed, you can log in with the account you created in GitHub.
 
-![GitHub Desktop](./images/github-desktop.PNG)
+![GitHub Desktop](./images/github-desktop.png)
 
 ### Step 3: Install Eclipse
 
