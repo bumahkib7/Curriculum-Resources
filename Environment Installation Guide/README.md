@@ -13,6 +13,7 @@ The following technologies are required in order to complete this phase of the p
 
 - **Eclipse**: We will be using Eclipse as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
 - **DBeaver**: DBeaver is a free, open source universal database tool that is compatible with several external data sources, PostgreSQL included. We'll use DBeaver in order to modify our databases and persist data using a simple user interface provided to us by the tool.
+- **GitHub Desktop**: I will be using GitHub to host and share coding examples and notes (at least for the first half of the training). To install the examples locally onto your system, we will need to install GitHub Desktop.
 
 ## Installation Method
 
@@ -46,33 +47,7 @@ You should see your operating system listed ("Windows 10" in the above example) 
 
 ### Step 1: Install Spring Tool Suite 4
 
-1. Navigate to the [Spring Tools](https://spring.io/tools) website and download Spring Tools 4 for Eclipse. 
-
-![](./images/STS-Web.jpg)
-
-2. Once the download has finished go to your downloads folder, search for the spring-tool-suite jar file and double click it to begin the install process. NOTE: STS will install to the directory the jar file is in when you open it. If you would like STS to install to another directory than your downloads directory, move the jar file before opening it.
-
-![](./images/STS-Jar.jpg)
-
-3. An unnamed progress bar will appear as STS is installed into your directory. 
-
-![](./images/STS-Unpack.jpg)
-
-4. Once the install is complete you will have an STS folder in the directory. Double click it to enter it. 
-
-![](./images/STS-Folder.jpg)
-
-5. Once inside the folder double click the SpringToolSuite4 application icon to start STS and ensure it runs correctly. If you encounter any errors check all the path variables you configured in the previous setup guides. 
-
-![](./images/STS-Ready.jpg)
-
-6. If STS opens without errors you will be asked to create a workspace. You can just click "Cancel" at this time. 
-
-7. If you would like to place a shortcut to STS on your desktop (which is highly recommended) you can right-click the SpringToolSuite4 application, hover over "Send to" and click "Desktop (create shortcut)". You will now have a desktop icon from which you can open STS.
-
-![](./images/STS-Shortcut.jpg)
-![](./images/STS-Desktop.jpg)
-
+Navigate to the [Eclipse Installer ](https://www.eclipse.org/downloads/packages/installer) website and follow the guide found on the webpage to download and install Eclipse. 
 
 ### Step 2: Install DBeaver
 
@@ -103,6 +78,14 @@ When you arrive at the portion of the setup which is titled "Choose Components",
 ![DBeaver Components](./images/dbeaver-components.PNG)
 
 If your installation was successful, you should now be able to search for and find "DBeaver" using your computer's search bar.
+
+### Step 3: Install GitHub Desktop
+
+1. Sign up for a GitHub account (preferrably using your new Revature email) on [GitHub's official website](https://github.com/).
+
+2. Next, install GitHub Desktop by navigating to [GitHub Desktop website](https://desktop.github.com/)
+
+![GitHub Desktop](./images/github-desktop.PNG)
 
 ====================
 
