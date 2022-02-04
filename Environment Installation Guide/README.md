@@ -11,9 +11,9 @@
 
 The following technologies are required in order to complete this phase of the program:
 
-- **Eclipse**: We will be using Eclipse as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
 - **DBeaver**: DBeaver is a free, open source universal database tool that is compatible with several external data sources, PostgreSQL included. We'll use DBeaver in order to modify our databases and persist data using a simple user interface provided to us by the tool.
 - **GitHub Desktop**: I will be using GitHub to host and share coding examples and notes (at least for the first half of the training). To install the examples locally onto your system, we will need to install GitHub Desktop.
+- **Eclipse**: We will be using Eclipse as our *integrated development environment* (IDE). Though you don't need an IDE to write code, an IDE provides several features that make rapid development (e.g. quickly writing and refactoring code) easier.
 
 ## Installation Method
 
