@@ -71,6 +71,27 @@ public class Primitives {
 		
 		
 		
+		
+		//declaring variables
+		//We are allocating memory for these variables
+		int myInt;
+		String myString;
+		boolean myBool;
+		
+		
+		//assignment
+		//We actually utilize the variables memory and store values!
+		myInt = 7;
+		myString = "random string";
+		myBool = false;
+		
+		//declaration and assignment
+		int randomInt = 2;
+		
+		System.out.println(randomInt);
+		
+		
+		
 	}
 
 }
