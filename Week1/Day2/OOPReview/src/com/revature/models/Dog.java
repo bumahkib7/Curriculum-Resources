@@ -18,9 +18,18 @@ public class Dog {
 	 * 		Parameterized Constructor
 	 */
 	
+	//default argument, from the perspective of the JVM
+	/*
+	 * public Dog(){
+	 * super();
+	 * }
+	 */
+	
 	public Dog(){
+		super(); // the super or the this keyword is called at the start of a constructor!
 		//my constructor logic here!
 		System.out.println("I'm being created! (No Args Constructor)");
+		
 	}
 	
 	public Dog(int a, String s, boolean b) {
@@ -32,11 +41,43 @@ public class Dog {
 	}
 	
 	//Define what states the Dog can store
+	//Class variables, that define what can be stored in the object
 	public String name;
 	public int age;
 	public boolean hungry;
 	
-	//Define what the Dog can do
+	//Define what the Dog can do (behavior) 
+	//Methods (functions that are associated with the object)
+	// access modifier, return type, name of method, parameters
+	// methods, like constructors can modify the values of the states and 
+	// 	return the values.
+	
+	public void fetch() {
+		
+		if(this.hungry) {
+			System.out.println("I'm too hungry!");
+		}else if(!this.hungry){
+			System.out.println("I'm fetching a ball!");
+			this.hungry = true;
+		}
+		
+	}
+	
+	public boolean eat() {
+	
+		boolean hasEaten = false;
+		
+		if(this.hungry) {
+			System.out.println("I'm eating!");
+			this.hungry = false;
+			hasEaten = true;
+		}else {
+			System.out.println("I'm already full!");
+		}
+		return hasEaten;
+	}
+	
+	
 	
 	
 	
