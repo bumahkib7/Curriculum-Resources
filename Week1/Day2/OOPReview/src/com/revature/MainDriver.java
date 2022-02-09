@@ -1,11 +1,12 @@
 package com.revature;
+import com.revature.encapsulation.User;
 //import com.revature.models.*;
 import com.revature.models.Dog;
 
 public class MainDriver {
 	
 	public static void main(String[] args) {
-		System.out.println("Welcome to OOP review!");
+//		System.out.println("Welcome to OOP review!");
 		
 		Dog coco; //I haven't created a instance of a dog!
 					//I've declared a variable, that can store a dog. 
@@ -13,14 +14,14 @@ public class MainDriver {
 		coco = new Dog();
 		coco = new Dog(1,"Coco",true);
 		
-		System.out.println(coco.name);
-		System.out.println(coco.age);
-		System.out.println(coco.hungry);
+//		System.out.println(coco.name);
+//		System.out.println(coco.age);
+//		System.out.println(coco.hungry);
 		
 		Dog mcDoggy = new Dog(11,"McDoggy",false);
-		System.out.println(mcDoggy.name);
-		System.out.println(mcDoggy.age);
-		System.out.println(mcDoggy.hungry);
+//		System.out.println(mcDoggy.name);
+//		System.out.println(mcDoggy.age);
+//		System.out.println(mcDoggy.hungry);
 		
 		Dog dog1 = new Dog(2,"Lulu",true);
 		
@@ -30,14 +31,31 @@ public class MainDriver {
 		dogArray[2] = coco;
 		dogArray[3] = coco;
 		
-		for(int i = 0; i< dogArray.length; i++) {// traditional for loop
-			System.out.println(dogArray[i].name);
-		}
+//		for(int i = 0; i< dogArray.length; i++) {// traditional for loop
+//			System.out.println(dogArray[i].name);
+//		}
+//		
+//		for(Dog d: dogArray) { //for each loop 
+//			System.out.println(d.name);
+//		}
 		
-		for(Dog d: dogArray) { //for each loop 
-			System.out.println(d.name);
-		}
+		//There is nothing to return, so nothing to print out!
+//		coco.fetch();
+//		mcDoggy.fetch();
+//		dog1.fetch();
+//		
+//		coco.eat(); //this method is returning something!
+//		mcDoggy.eat();
+//		dog1.eat();
+//		
+//		coco.fetch();
+//		mcDoggy.fetch();
+//		dog1.fetch();
 		
+		
+		
+		User u = new User();
+//		u.name = "not accessible outside the package!"
 		
 	}
 
