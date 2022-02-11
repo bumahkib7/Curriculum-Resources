@@ -1,13 +1,17 @@
 package com.revature.service;
 
+import java.util.List;
+
 import com.revature.models.Book;
 import com.revature.models.User;
+import com.revature.repository.BookDAO;
 import com.revature.repository.UserDAO;
 import com.revature.repository.UserDAOImpl;
 
 public class LibraryServiceImpl implements LibraryService{
 	
 	private UserDAO uDao = new UserDAOImpl();
+	private BookDAO bDao = new BookDAO();
 
 	@Override
 	public boolean register(User u) {
@@ -37,8 +41,14 @@ public class LibraryServiceImpl implements LibraryService{
 
 	@Override
 	public boolean deposit(User u, Book b) {
-		// TODO Auto-generated method stub
+		
 		return false;
+	}
+
+	@Override
+	public List<Book> getAllAvailableBooks() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

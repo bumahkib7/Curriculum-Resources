@@ -1,5 +1,7 @@
 package com.revature.service;
 
+import java.util.List;
+
 import com.revature.models.Book;
 import com.revature.models.User;
 
@@ -13,5 +15,7 @@ public interface LibraryService {
 	public boolean withdraw(User u, Book b);
 	
 	public boolean deposit(User u, Book b);
+	
+	public List<Book> getAllAvailableBooks();
 
 }
