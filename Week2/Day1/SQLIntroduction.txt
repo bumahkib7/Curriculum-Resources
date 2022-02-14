@@ -1,0 +1,65 @@
+
+SQL
+	Structured Query Language 
+	Domain Specific programming language 
+	It is used to communicate with a Relational Database System (RDBS)
+	SQL follows a English-like syntax and used to administor and manage
+	databases.
+
+	SQL has 5 sublanguages: 
+	All SQL vendors must have support for these sublanguages. If they don't
+	then they're not very good database vendors. 
+		DML: Data Manipulation Language
+			To be able to manipulate the data in tables!
+			CRUD - Create, Read, Update, Delete
+			Insert
+			Select
+			Update
+			Delete
+		DDL: Data Defintion Language
+			To be able to manipulate tables!
+			Create tables, delete tables, modifiy tables!
+			Create 
+			Drop 
+			Truncate
+			Alter
+	*Extra Challenge: 
+		I want to make sure that the calories of a fruit cannot be lower than 0
+		(i.e. have a constraint to stop people inserting invalid data!)
+		I want all fruit to have a name, so no null values in the name!
+		Review Normalization
+			
+		DQL
+		DCL
+		TCL 
+
+What is RDBS?
+	(A category of Database Systems) Relational Database System. 
+	A RDBS is a type of database that stores information in tables. 
+	Tables consist of Rows and Columns, Columns define what can be stored
+	and Rows are the actual "records".
+
+	Relational Databases support relationship between tables (Foreign Key 
+	relationship). To support these relationships, we have a "Schema". 
+	Schema is an outline of all possibly related data structures. 
+
+DB?
+	Database is simply a place that we store and persist information! 
+
+How to get a DB?
+	Install a local database! (We'll be getting the PostgresSQL variant)
+	Use a "as a service", Infrastructure as a service, product as a service, 
+	software as a service, (code as a service).
+
+
+	Product as a service (with ElephantSQL), A cloud provider like AWS or 
+	ElephantSQL will host a product (RDS) that we can connect to over the 
+	cloud. 
+		
+	Benefits: 
+		We don't need to buy hardware to support these products. 
+		We don't need to pay for anything extra, start up costs are cheaper. 
+		More resilient to local hardware failure. 
+
+	(Software as a service - Pega) 
+	
