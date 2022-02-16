@@ -1,0 +1,51 @@
+Normalization 
+
+Normalization is the process of reducing data redundancy in our database.
+There are 6 levels of Normalization, Normal Forms. Industry standard
+for Normalization is 3rd Normal Form (anything above that is more 
+academic) 
+
+What is data redundancy?
+	Keeping track of unnecessary data in our tables because 
+	our table is not structured appropriately.
+
+"The key, the whole key, and nothing but the key"
+
+"The Key"
+First level of normalization is: 
+1 NF: 
+	Primary Key: Unique indentifier for row/records
+	Atomic Columns: Smallest indivisable amount of data 
+
+"The Whole Key"
+2 NF: 
+	We need to have achieved 1 NF. 
+	We have no PARTIAL dependencies on the primary key
+	(DO NOT SAY 'remove any composite key')
+
+"Nothing but the key"
+3 NF: 
+	We need to achieve 2 NF. 
+	We have no TRANSITIVE dependencies. 
+	(All columns are directly dependent on the primary key and
+	not indirectly)
+
+(Transitive property: 
+	If I have numbers, a, b and c. 
+	If a > b and b > c 
+	That means a > c 
+
+	If I have 3 people, bob, steve and rory.
+	If Rory and Steve race, and Rory wins. 
+	If Steve and Bob race, and Steve wins. 
+
+	That means that Rory is also faster than Bob, without having to
+	race him. 
+
+Key terminology: 
+	Primary Key 
+	Foreign Key 
+	Candidate Key: is a column that can "act" as a primary key (but is not)
+	Composite Key: is multiple columns that acts as a primary key. 
+	
+
