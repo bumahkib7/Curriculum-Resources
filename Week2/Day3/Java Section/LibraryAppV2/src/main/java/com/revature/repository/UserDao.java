@@ -71,7 +71,7 @@ public class UserDao implements GenericDao<User> {
 	}
 
 	@Override
-	public Object selectObjectbyId(int id) {
+	public User selectObjectbyId(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}

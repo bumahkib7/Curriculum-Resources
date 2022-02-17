@@ -39,7 +39,7 @@ public class BookDao implements GenericDao<Book>{
 	}
 
 	@Override
-	public Object selectObjectbyId(int id) {
+	public Book selectObjectbyId(int id) {
 		//I'm not going to grab using the book id
 		//I'm going to grab using the user id! 
 		

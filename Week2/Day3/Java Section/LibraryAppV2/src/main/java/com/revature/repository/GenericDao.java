@@ -12,7 +12,7 @@ public interface GenericDao<T> {
 	
 	//Read 
 	List<T> selectAllObjects();
-	Object selectObjectbyId(int id);
+	T selectObjectbyId(int id);
 	
 	//Update
 	boolean updateObject(T t);
