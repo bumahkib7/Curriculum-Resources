@@ -1,0 +1,26 @@
+Total Points: 10 points (the points correspond to the difficulty of the task)
+This is a banking application, where users can create an account and interact with it. 
+
+
+As a user, I can login.
+2 points
+
+As a customer, I can apply for a new bank account with a starting balance.
+3 points
+
+As a customer, I can view the balance of my account (that belongs to me).
+1 point
+
+As a customer, I can make a withdrawal or deposit to a specific account (that belongs to me).
+2 points
+
+As the system, I reject invalid transactions.
+Ex:
+	A withdrawal that would result in a negative balance.
+	A deposit or withdrawal of negative money.
+2 points
+
+
+(I recommend starting of slowly from the database to the presentation layer:
+	Start with database tables, then connecting to database, then DAO layer, etc .. )
+
