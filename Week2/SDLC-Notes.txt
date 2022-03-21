@@ -1,0 +1,77 @@
+Software Development Life Cycle (SDLC)
+
+1) Planning :
+	Requirement Phase (Business Requirements)
+	Analysis Phase (Technical Requirements)
+	Design Phase - What we're actually going to build. 
+
+2) Development: 
+	Development Phase: We're building our product. 
+
+3) Testing: 
+	Testing Phase: We're testing our product. 
+
+4) Deployment: 
+	Deployment Phase: Actually bringing our software into production env.
+
+5) Maintenance: 
+	Maintenance phase: Maintaining the product until the end of its era. 
+
+https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm
+Waterfall Methdology!
+	Waterfall was the first/early approach toward SDLC. 
+	You do ALL the planning first. 
+	Then ALL the development. 
+	Then ALL the tests. 
+	Then ALL the deployment and maintenance. 
+
+	Benefits?
+		Very easy to follow, no additional training required for 
+		new personal. 
+	Disadvantages?
+		It is not very adaptable to changing business requirements. 
+		Very inefficient in a rapidly changing model. 
+
+https://www.tutorialspoint.com/sdlc/sdlc_agile_model.htm
+Agile Methdology! 
+	Everything is done in Sprints! (Sprints can be something like 2 weeks)
+	Within each Sprint, you do the planning, development, testing and 
+		deployment for a feature. 
+	Features are broken down into user stories. 
+
+	"I want to be able to login"
+	"I want to set up the service and dao layer, and have connection 
+	to my postgresql DB hosted on the ElephantSQL server"
+
+	User Stores define the role and what they do! 
+	"As a customer, I can login to my bank account" 2 points 
+
+	Meetings with teams regularly, possibly daily standups.
+
+https://www.atlassian.com/agile/project-management/estimation
+	Daily Standups, User Stories, Sprints. 
+
+	Advantages:
+		Very adapatable. 
+		There is constant feedback to everyone, so everyone can 
+		adapt to new circumstances or problems. 
+
+	Disadvantages; 
+		Usually requires some training before hand. 
+		For very big teams, it might not be possible.
+
+
+DevOps: Development Operations
+  Set of practices/methodologies we incoporate to combine the development 
+	and deployment of an application. 
+  "Forces" the development team to be involved in the testing and deployment
+	aspect of all features. This is brought on through Agile practices: 
+	
+	Continous Integration - constantly rebuilding our application with 
+		new features that are constantly tested! 
+	Continous Delivery - like deployment, but we have a human checking 
+		before deploying to production environment. 
+	Continous Deployment - deploying the application after every time 
+		the project is rebuilt. 
+
+	(CICD Pipeline) 

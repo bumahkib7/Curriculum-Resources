@@ -2,6 +2,7 @@ package com.revature;
 
 import java.util.Scanner;
 
+import com.revature.exceptions.BusinessException;
 import com.revature.model.User;
 import com.revature.repo.UserRepository;
 
@@ -19,13 +20,40 @@ public class MainDriver {
 		System.out.println("Please write your username");
 		String username = sc.nextLine();
 		
-		System.out.println("Please write your password");
-		String password = sc.nextLine();
-		System.out.println("How much money do you want to put in?");
-		double startingBalance = sc.nextDouble();
+		if(UserRepository.retrieveUserByName(username) == null) {
+			System.out.println("Please write your password");
+			String password = sc.nextLine();
+			System.out.println("How much money do you want to put in?");
+			double startingBalance = sc.nextDouble();
+			
+			if(startingBalance < 0) {
+				System.out.println("Not allowed!");
+				System.out.println("Balance is set to 0");
+				startingBalance = 0;
+			}
+			
+			User u = new User(username, password, startingBalance);
+			UserRepository.addUser(u);
+		}else {
+			System.out.println("Username already exists!");
+		}
 		
-		User u = new User(username, password, startingBalance);
-		UserRepository.addUser(u);
+		
+	}
+	
+	public static User loginMenu(Scanner sc) {
+		System.out.println("What is your name?");
+		String name = sc.nextLine();
+		System.out.println("What is your password");
+		String password = sc.nextLine();
+		
+		User loggedInUser = UserRepository.retrieveUser(name,password);
+		return loggedInUser;
+	}
+	
+	public static void prettyDisplay(User u) {
+		System.out.println("Your username is: " + u.getName());
+		System.out.println("Your balance is: " + u.getBalance());
 	}
 	
 	
@@ -63,11 +91,17 @@ public class MainDriver {
 				registerMenu(sc);
 				break;
 			case "1":
-				System.out.println("What is your name?");
-				String name = sc.nextLine();
-				User loggedInUser = UserRepository.retrieveUserByName(name);
-				System.out.println(loggedInUser);
-			break;
+				try {
+					User u = loginMenu(sc);
+//					System.out.println(u); //This is not a pretty way of displaying a user!
+					prettyDisplay(u);
+				} catch(BusinessException e	) {
+					System.out.println("User credentials don't match!");
+				} catch(Exception e) {
+					e.printStackTrace();
+				}
+				
+				break;
 			case "9":
 			active = false;
 			break;
@@ -76,6 +110,7 @@ public class MainDriver {
 			}
 			
 		}
+		
 		
 		
 
